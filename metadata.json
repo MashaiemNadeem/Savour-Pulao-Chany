@@ -1,0 +1,6 @@
+{
+  "name": "Savour Pulao & Chany",
+  "description": "The iconic Pakistani restaurant application featuring fragrant saffron pulao, golden chicken roast, shami kababs, authentic Lahori chany, online ordering, cashier POS, and admin analytics.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
