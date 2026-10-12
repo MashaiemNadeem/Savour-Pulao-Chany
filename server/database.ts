@@ -13,6 +13,9 @@ export const db = mysql.createPool({
   database: process.env.DB_NAME || 'restaurant_pos_db',
   waitForConnections: true,
   connectionLimit: 10,
+    ssl: {
+    minVersion: 'TLSv1.2',
+  },
 });
 
 export async function testDatabaseConnection() {
